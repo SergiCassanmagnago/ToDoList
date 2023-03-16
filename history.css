@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/background_green.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px 1000px;
+    color: rgba(0, 0, 0, 0.74);
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    font-size: 2rem;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextbutton{
+    color: rgb(9, 54, 102);
+    text-decoration: inherit;
+    display: flex;
+    background: none;
+    border: none;
+    margin-left: 2.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nextbutton:hover{
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.fa-angles-left{
+    font-size: 1.5rem;
+    padding-top: 0.3rem;
+    margin-left: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    background-color: rgba(255, 202, 202, 0.637);
+    min-height: 30vh;
+    width: 100rem;
+    margin:  0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom:  5rem;
+}
+
+.itemlist{
+    margin-top: 1.5rem;
+    margin: 1rem;
+    padding: 0;
+    list-style: none;
+    text-align: justify;
+}
+
+.todoitem{
+    margin-bottom: 2.5rem;
+    margin: 1.5rem; 
+    background-color: rgba(255, 0, 0, 0);
+    max-width: 20rem;
+    display: inline-table;
+    border-radius: 1rem;
+}
+
+.todotext{
+    min-width: 10rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.75rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.tododate{
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 0.5rem;
+}

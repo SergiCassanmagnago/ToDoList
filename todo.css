@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 3000px 1000px;
+    color: rgba(255, 255, 255, 0.9);
+    min-height: 100vh;
+    font-family: Roboto, system-ui, sans-serif;
+}
+
+header{
+    font-size: 2rem;
+}
+
+header, form{
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add{
+    font-size: 1.6rem;
+    width: 50rem;
+    padding: 0.5rem;
+    color: rgb(3, 40, 79);
+    background-color: rgba(255, 255, 255, 0.9);
+    outline: none;
+    border: none;
+}
+
+.addbutton{
+    font-size: 2.1rem;
+    padding: 0.2rem;
+    color: rgb(9, 54, 102);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+}
+
+.addbutton:hover{
+    background-color: rgb(9, 54, 102);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.nextbutton{
+    text-decoration: inherit;
+    display: flex;
+    background: none;
+    border: none;
+    color: rgb(9, 54, 102);
+    margin-left: 2.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nextbutton:hover{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.fa-angles-right{
+    font-size: 1.5rem;
+    padding-top: 0.3rem;
+    margin-left: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+.fa-angles-left{
+    font-size: 1.5rem;
+    padding-top: 0.3rem;
+    margin-left: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+.columns{
+    margin:  0 auto;
+    margin-bottom:  5rem;
+    display: flex;
+    max-width: 90rem;
+    min-height: 15rem;
+    border-radius: 0.75rem;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: rgb(9, 54, 102);
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.todocolumn .donecolumn .inprogresscolumn{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+h2{
+    border-bottom: 0.075rem solid rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+    padding: 0;
+}
+
+.todoheader{
+    border-top-left-radius: 0.75rem;
+}
+
+.doneheader{
+    border-top-right-radius: 0.75rem;
+}
+
+.todocolumn{
+    width: 30rem;
+}
+
+.inprogresscolumn{
+    width: 30rem;
+}
+
+.donecolumn{
+    width: 30rem;
+}
+
+.todoitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem; 
+    min-width: 10rem;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    background-color: rgba(255, 255, 255);
+}
+
+.buttons{
+    display: flex;
+    align-self: stretch;
+}
+
+.trash{
+    padding: 0.3rem;
+    height: 100%;
+    color: rgba(255, 0, 0, 0.6);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    font-size: 2.1rem;
+    background-color: transparent;
+}
+
+.tick{
+    height: 100%;
+    padding: 0.3rem;
+    color: rgba(3, 192, 98, 0.6);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    font-size: 2.1rem;
+    background-color: transparent;
+}
+
+i{
+    pointer-events: none;
+}
+
+.invisible{
+    display: none;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(60deg);
+    opacity: 0;
+}
+
+.swipe{
+    transform: translateX(8rem);
+    opacity: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+a:visited 
+{
+    text-decoration: none; 
+}

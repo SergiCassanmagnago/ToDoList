@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Prompt:wght@100;300&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="./todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ToDo List</title>
+    <link rel="icon" href="icons/Graphicloads-100-Flat-2-Check-1.ico">
+</head>
+<body>
+    <header><h1>Sergi's ToDo List</h1></header>
+    <form>
+        <input type="text" placeholder="Add Task" class="add">
+        <button class="addbutton" type="submit">
+            <i class="fa-sharp fa-solid fa-square-plus"></i>
+        </button>
+        <a class="nextbutton" href="./history.html">
+            <h3>ToDo History</h3>
+            <i class="fa-sharp fa-solid fa-angles-right"></i>
+        </a>
+    </form>
+    <div class="columns">
+        <div class="todocolumn column">
+            <h2 class="todoheader">To Do</h2>
+        </div>
+        <div class="inprogresscolumn column">
+            <h2>In Progress</h2>
+        </div>
+        <div class="donecolumn column">
+            <h2 class="doneheader">Done</h2>
+        </div>
+    </div>
+    <script src="./todo.js"></script>
+</body>
+</html>
